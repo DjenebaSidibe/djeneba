@@ -1,0 +1,224 @@
+body{
+margin:0px;
+padding:0px;
+background-image:url(12589.jpg);
+background-size:cover;
+}
+header{
+	position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-65px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+}
+.contenu{
+display: grid;
+grid-template-columns: repeat(2 , 1fr);
+grid-template-rows: repeat(1 , 1fr); 
+margin-top: 60px;	
+}
+.contenu .gauche{
+margin-left: 100px;	
+}
+.contenu .gauche h1{
+color: white;
+font-size: 50px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.contenu .gauche p{
+color: white;
+font-size: 25px;
+word-spacing: 5px
+line-height:100px;
+text-align: justify;
+line-height: 50px;
+}
+.contenu .droite img{
+margin-left: 5%;
+width: 100%;
+margin-top: 5%;
+}
+.contenu .droite .img2{
+filter: drop-shadow(1px 1px 10px blue);
+}
+/*la partie tablette*/
+@media screen and (max-width: 900px){
+body{
+margin:0px;
+padding:0px;
+background-image:url(12589.jpg);
+background-size:cover;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-65px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 10px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+}
+.contenu{
+display: grid;
+grid-template-columns: repeat(2 , 1fr);
+grid-template-rows: repeat(1 , 1fr); 
+margin-top: 60px;	
+}
+.contenu .gauche{
+margin-left: 30px;	
+}
+.contenu .gauche h1{
+color: white;
+font-size: 40px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.contenu .gauche p{
+color: white;
+font-size: 15px;
+word-spacing: 5px;
+line-height: 20px;
+}
+.contenu .droite img{
+margin-left: 5%;
+width: 100%;
+margin-top: 5%;
+}
+.contenu .droite .img2{
+filter: drop-shadow(1px 1px 10px blue);
+}
+/*la partie mobile*/
+@media screen and (max-width: 400px){
+body{
+margin:0px;
+padding:0px;
+background-image:url(12589.jpg);
+background-size:cover;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-65px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 5px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+}
+.contenu{
+display: grid;
+grid-template-columns: repeat(2 , 1fr);
+grid-template-rows: repeat(1 , 1fr); 
+margin-top: 60px;	
+}
+.contenu .gauche{
+margin-left: 30px;	
+}
+.contenu .gauche h1{
+color: white;
+font-size: 20px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.contenu .gauche p{
+color: white;
+font-size: 5px;
+word-spacing: 5px
+line-height:40px;
+text-align: justify;
+}
+.contenu .droite img{
+margin-left: 5%;
+width: 100%;
+margin-top: 5%;
+}
+.contenu .droite .img2{
+filter: drop-shadow(1px 1px 10px blue);
+}
+}

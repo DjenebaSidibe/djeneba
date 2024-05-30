@@ -1,0 +1,387 @@
+body{
+margin:0px;
+padding:0px;
+background-image:url(12589.jpg);
+background-size:cover;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-110px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+	 }
+	 .contenu{
+
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0 auto;
+    background-color: red;
+    margin-top: 8%;
+    } 
+    .contenu .gauche{
+        background-color: rgb(44, 43, 43);
+    }
+    .contenu .gauche h1{
+        color: white;
+        font-size: 60px;
+        text-align:center;
+        font-style: italic;
+    }
+    .contenu .gauche h3{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    .contenu .gauche .info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+    .contenu .gauche .info i{
+        background-color: blue;
+        font-size: 30px;
+        color: white;
+        border: none;
+    
+    }
+    .contenu .gauche .info span{
+        font-size: 30px;
+        margin-left: 5px;
+        color: white;
+    }
+    .contenu .gauche .sociaux{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contenu .gauche .sociaux svg{
+        margin-right: 40px;
+    }
+    .contenu .droite{
+      background-color: rgb(131, 133, 134);
+    }
+    .contenu .droite h1{
+      text-align: center;
+    }
+    .contenu .droite .class{
+      margin-left: 30px;
+       line-height: 200px;
+    }
+    .contenu .droite .class .champ{
+     
+    }
+    .contenu .droite .class input ,textarea{
+      width: 80%;
+      font-size: 30px;
+      background:none;
+      border: none;
+      box-shadow: inset 8px 8px 8px #ecf0f3,inset -8px -8px 8px #ffff;
+      border-radius: 30px;
+      padding: 15px ;
+      margin-top: 20px;
+    }
+    .contenu .droite  button{
+      font-size: 30px;
+      text-align: center;
+      width: 70%;
+      border-radius: 20px;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    .contenu .droite .class textarea{
+      resize: none;
+    }
+    /*la partie tablette*/
+    @media screen and (max-width: 900px){
+  header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-75px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 10px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+	 }
+	 .contenu{
+
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0 auto;
+    background-color: red;
+    margin-top: 8%;
+    } 
+    .contenu .gauche{
+        background-color: rgb(44, 43, 43);
+    }
+    .contenu .gauche h1{
+        color: white;
+        font-size: 30px;
+        text-align:center;
+        font-style: italic;
+    }
+    .contenu .gauche h3{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .contenu .gauche .info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+    .contenu .gauche .info i{
+        background-color: blue;
+        font-size: 20px;
+        color: white;
+        border: none;
+    
+    }
+    .contenu .gauche .info span{
+        font-size: 20px;
+        margin-left: 5px;
+        color: white;
+    }
+    .contenu .gauche .sociaux{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contenu .gauche .sociaux svg{
+        margin-right: 40px;
+    }
+    .contenu .droite{
+      background-color: rgb(131, 133, 134);
+    }
+    .contenu .droite h1{
+      text-align: center;
+    }
+    .contenu .droite .class{
+      margin-left: 30px;
+       line-height: 200px;
+    }
+    .contenu .droite .class .champ{
+     
+    }
+    .contenu .droite .class input ,textarea{
+      width: 80%;
+      font-size: 20px;
+      background:none;
+      border: none;
+      box-shadow: inset 8px 8px 8px #ecf0f3,inset -8px -8px 8px #ffff;
+      border-radius: 30px;
+      padding: 15px ;
+      margin-top: 20px;
+    }
+    .contenu .droite  button{
+      font-size: 20px;
+      text-align: center;
+      width: 70%;
+      border-radius: 20px;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    .contenu .droite .class textarea{
+      resize: none;
+    }  	
+    }
+    /*la partie mobile*/
+    @media screen and (max-width: 500px){
+  header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-60px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 30px;
+}
+.logo img{
+	width:10%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 10px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+	 }
+	 .contenu{
+
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0 auto;
+    background-color: red;
+    margin-top: 8%;
+    } 
+    .contenu .gauche{
+        background-color: rgb(44, 43, 43);
+    }
+    .contenu .gauche h1{
+        color: white;
+        font-size: 20px;
+        text-align:center;
+        font-style: italic;
+    }
+    .contenu .gauche h3{
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    .contenu .gauche .info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+    .contenu .gauche .info i{
+        background-color: blue;
+        font-size: 10px;
+        color: white;
+        border: none;
+    
+    }
+    .contenu .gauche .info span{
+        font-size: 10px;
+        margin-left: 5px;
+        color: white;
+    }
+    .contenu .gauche .sociaux{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contenu .gauche .sociaux svg{
+        margin-right: 40px;
+    }
+    .contenu .droite{
+      background-color: rgb(131, 133, 134);
+    }
+    .contenu .droite h1{
+      text-align: center;
+    }
+    .contenu .droite .class{
+      margin-left: 30px;
+       line-height: 200px;
+    }
+    .contenu .droite .class .champ{
+     
+    }
+    .contenu .droite .class input ,textarea{
+      width: 80%;
+      font-size: 10px;
+      background:none;
+      border: none;
+      box-shadow: inset 8px 8px 8px #ecf0f3,inset -8px -8px 8px #ffff;
+      border-radius: 30px;
+      padding: 15px ;
+      margin-top: 20px;
+    }
+    .contenu .droite  button{
+      font-size: 10px;
+      text-align: center;
+      width: 70%;
+      border-radius: 20px;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    .contenu .droite .class textarea{
+      resize: none;
+    }  	
+    }

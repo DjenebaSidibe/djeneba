@@ -1,0 +1,357 @@
+body{
+margin:0px;
+padding:0px;
+background-image:url(12589.jpg);
+background-size:cover;
+}
+header{
+	position: fixed;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-90px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+  }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+  }	   
+.ensemble h1{
+	color: white;
+	margin-top: 90px;
+	text-align: center;
+	font-size: 100px;
+}
+.ensemble h3{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.contenu .gauche{
+margin-left: 30px;	
+}
+.contenu .gauche h1{
+color: white;
+font-size: 100px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.contenu .gauche p{
+color: white;
+font-size: 25px;
+word-spacing: 5px;
+line-height:40px;
+text-align: justify;
+}
+.contenu .droite img{
+margin-left: 5%;
+width: 100%;
+margin-top: 5%;
+}
+.contenu .droite .img2{
+filter: drop-shadow(1px 1px 10px blue);
+}	
+.contenu{
+	display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 30px;
+margin-left: 25px;
+}
+.contenu .grid{
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+	border: 10px solid white;
+	border-radius: 60px;
+}
+.contenu .grid .cercle{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top:10px;
+	border: 5px solid white;
+}
+.contenu .grid .cercle i{
+	font-size: 90px;
+	margin-left: 32px;
+	margin-top: 40px;
+	color: white;
+}
+.contenu .grid h1{
+	font-size: 30px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: red;
+}
+.contenu .grid p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+/*la partie tablette*/
+@media screen and (max-width: 900px){
+body{
+margin:0px;
+padding:0px;
+background-image:url(12589.jpg);
+background-size:cover;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-90px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 10px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+}
+.ensemble h1{
+	color: white;
+	margin-top: 90px;
+	text-align: center;
+	font-size: 50px;
+}
+.ensemble h3{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.contenu .gauche{
+margin-left: 30px;	
+}
+.contenu .gauche h1{
+color: white;
+font-size: 50px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.contenu .gauche p{
+color: white;
+font-size: 50px;
+word-spacing: 5px;
+line-height:40px;
+text-align: justify;
+}
+.contenu .droite img{
+margin-left: 5%;
+width: 100%;
+margin-top: 5%;
+}
+.contenu .droite .img2{
+filter: drop-shadow(1px 1px 10px blue);
+}	
+.contenu{
+	display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 30px;
+margin-left: 25px;
+}
+.contenu .grid{
+	width: 350px;
+	height: 350px;
+	background-color: blue;
+	border: 10px solid white;
+	border-radius: 60px;
+}
+.contenu .grid .cercle{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top:10px;
+	border: 5px solid white;
+}
+.contenu .grid .cercle i{
+	font-size: 50px;
+	margin-left: 32px;
+	margin-top: 30px;
+	color: white;
+}
+.contenu .grid h1{
+	font-size: 30px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: red;
+}
+.contenu .grid p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+}
+
+/*la partie mobile*/
+
+@media screen and (max-width: 500px){
+header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-90px;
+}
+.logo{
+	margin:5px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.logo img{
+	width:5%;
+	   }
+nav ul{
+	display:flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+nav ul li{
+	margin-right: 30px;
+}
+	
+nav ul li a{
+	text-decoration: none;
+	font-size: 10px;
+    color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+	border-bottom: 3px solid black;
+}
+.ensemble h1{
+	color: white;
+	margin-top: 90px;
+	text-align: center;
+	font-size: 25px;
+}
+.ensemble h3{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.contenu .gauche{
+margin-left: 30px;	
+}
+.contenu .gauche h1{
+color: white;
+font-size: 25px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.contenu .gauche p{
+color: white;
+font-size: 10px;
+word-spacing: 5px;
+line-height:40px;
+text-align: justify;
+}
+.contenu .droite img{
+margin-left: 5%;
+width: 100%;
+margin-top: 5%;
+}
+.contenu .droite .img2{
+filter: drop-shadow(1px 1px 10px blue);
+}	
+.contenu{
+	display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 30px;
+margin-left: 80px;
+}
+	
+.contenu .grid{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	border: 10px solid white;
+	border-radius: 60px;
+}
+.contenu .grid .cercle{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top:10px;
+	border: 5px solid white;
+}
+.contenu .grid .cercle i{
+	font-size: 30px;
+	margin-left: 32px;
+	margin-top: 30px;
+	color: white;
+}
+.contenu .grid h1{
+	font-size: 20px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: red;
+}
+.contenu .grid p{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+}
